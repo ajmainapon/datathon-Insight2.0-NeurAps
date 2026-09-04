@@ -1,0 +1,24 @@
+# Exact versions used to produce every result in this repository.
+# Python 3.12.13. Install with: uv pip install -r requirements.txt  (or plain pip)
+
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+scikit-learn==1.9.0
+optuna==4.9.0
+pandas==3.0.5
+numpy==2.5.2
+scipy==1.18.1
+
+# used for one experiment only (day2_06_tabpfn_foundation_model.py); optional
+torch==2.13.0
+tabpfn==8.5.0
+
+# tooling: notebook + deck generation, submission
+python-pptx==1.0.2
+nbformat==5.11.1
+kaggle==2.2.4
+
+# not required by any script here, but present in the working environment
+polars==1.44.1
+matplotlib==3.11.1

@@ -1,0 +1,36 @@
+# --- environments & caches ---
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- secrets: never commit ---
+.env
+
+# --- competition data: not ours to redistribute, and too large for git ---
+data/raw/
+data/processed/
+
+# --- transient training working dirs ---
+catboost_info/
+notebooks/catboost_info/
+
+# --- submission files: see submissions/MANIFEST.md for the full scored record ---
+submissions/*.csv
+
+# --- OS / editor noise ---
+.DS_Store
+*.swp
+
+# --- LaTeX build artifacts (keep the .tex source and the compiled .pdf) ---
+presentations/*.aux
+presentations/*.log
+presentations/*.nav
+presentations/*.out
+presentations/*.snm
+presentations/*.toc
+presentations/*.vrb
+texput.log
+
+# --- local MCP server config: contains a live Kaggle API key ---
+.mcp.json
