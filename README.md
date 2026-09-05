@@ -1,7 +1,18 @@
 # Insight 2.0 — Cancer Survival Classification
 
-**Team NeurAps** · private weighted F1 **0.880410** · **4th of 79** teams
+**Team NeurAps** · 🏆 **Champion, Insight 2.0 Datathon 2026** · private weighted F1
+**0.880410** · 4th of 79 on the leaderboard, 1st overall after the Grand Finale
 (30th on the public board — see [Endgame](#endgame))
+
+<p align="center">
+  <a href="certificate/certificate.pdf">
+    <img src="certificate/certificate.jpg" alt="Certificate of Achievement — Champion, Insight 2.0 Datathon 2026" width="640">
+  </a>
+  <br>
+  <sub>Certificate of Achievement, Insight 2.0 Datathon 2026 — IASDS Students' Club,
+  Institute of Applied Statistics and Data Science, University of Dhaka
+  (<a href="certificate/certificate.pdf">full-resolution PDF</a>)</sub>
+</p>
 
 Predicting `vital_status` (Alive / Dead) for 36,000 lung-cancer patients from the
 SEER cancer registry, trained on 24,000 labelled records with 36 clinical features.
